@@ -31,6 +31,7 @@ IMAGE_INSTALL += "tps-dts"
 #IMAGE_INSTALL += "ecorp-app0"
 # add all net and dev drivers
 IMAGE_INSTALL += "kernel-modules"
+IMAGE_INSTALL += "iptables"
 # some useful utilities
 IMAGE_INSTALL += "procps curl findutils usbutils mc"
 # for development
