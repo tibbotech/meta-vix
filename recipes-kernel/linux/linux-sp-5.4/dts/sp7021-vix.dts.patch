@@ -17,7 +17,7 @@
 + };
 +};
 +
-+&l2sw {  mode = <0>;  };
++&l2sw {  mode = <1>;  };
 +/* 16 (hw I2C) on s1 */
 +&i2cm0 {  status = "okay";
 +  pinctrl-names = "default";
@@ -25,7 +25,7 @@
 +  tps-sock = "s1";
 +};
 +/* 31 (hw I2C) on s5 */
-+&i2cm1 {  status = "okay";
++&i2cm1 {  status = "disabled";
 +  pinctrl-names = "default";
 +  pinctrl-0 = <&pins_i2cm1>;
 +  tps-sock = "s5";
