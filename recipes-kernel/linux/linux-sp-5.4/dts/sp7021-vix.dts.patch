@@ -11,7 +11,7 @@
 +#include "sp7021-ltpp3g2revD.dtsi"
 +
 +/ {
-+ model = "SP7021 TPPs3 Gen 2 Base";
++ model = "SP7021 TPPs3 Gen 2 Base VIX";
 + clocks {
 +
 + };
