@@ -1,6 +1,6 @@
 --- /dev/null	2023-05-11 21:30:56.679931079 +0300
 +++ a/arch/arm/boot/dts/sp7021-vix.dts	2023-05-30 04:22:21.098084061 +0300
-@@ -0,0 +1,69 @@
+@@ -0,0 +1,71 @@
 +/*
 + * Linux TPP3 Gen 2 - LTPP3g2 base board definition
 + * Copyright (C) 2020 Tibbo Tech. - http://tibbo.com/tps/
@@ -17,6 +17,8 @@
 + };
 +};
 +
++&cpu_hott { temperature = <110000>;  };
++&cpu_crit { temperature = <120000>;  };
 +&l2sw {  mode = <1>;  };
 +/* 16 (hw I2C) on s1 */
 +&i2cm0 {  status = "okay";
