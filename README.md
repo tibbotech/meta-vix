@@ -39,12 +39,12 @@ MACHINE=tppg2 bitbake-layers add-layer ../layers/meta-vix
 
 ### Append to your local.conf
 ```
-ISP_VAR_DTB = "sp7021-vix.dtb"
+- nothing -
 ```
 
 ### Building
 ```
-MACHINE=tppg2 bitbake mc:tppg2:img-tps-vix
+MACHINE=tppg2-vix bitbake mc:tppg2-vix:img-tps-vix
 ```
 ISPBOOOT.BIN will be placed at BUILDDIR/deploy/images/tppg2/emmc0/
 
