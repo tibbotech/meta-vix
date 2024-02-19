@@ -48,6 +48,10 @@ MACHINE=tppg2-vix bitbake mc:tppg2-vix:img-tps-vix
 ```
 ISPBOOOT.BIN will be placed at BUILDDIR/deploy/images/tppg2/emmc0/
 
+### Notes
+
+For Yocto >= Nanbield 5.10 is required due to SSL 3.0. Fix it.
+
 ## Maintainers
 
 * Dvorkin Dmitry `<dvorkin at tibbo.com>`
